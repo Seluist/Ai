@@ -22,15 +22,14 @@ uses: actions/checkout@v4
       distribution: temurin
       java-version: '17'
 
-  - name: Set up Gradle
-    uses: gradle/actions/setup-gradle@v4
-
-  - name: Build debug APK
-    run: gradle assembleDebug
+  - name: Build APK
+    uses: gradle/gradle-build-action@v3
+    with:
+      arguments: assembleDebug
 
   - name: Upload APK
     uses: actions/upload-artifact@v4
     with:
       name: capri-assistant-apk
-      path: '**/build/outputs/apk/debug/*.apk'
+      path: app/build/outputs/apk/debug/*.apk
       if-no-files-found: error
