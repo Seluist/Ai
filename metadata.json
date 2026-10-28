@@ -1,0 +1,6 @@
+{
+  "name": "Capri",
+  "description": "Cyberpunk voice assistant and companion created by Seluist. Features real-time voice, Gemini AI conversational intelligence, local device cyberware controls, and animated cyberpunk avatar.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Capri</string>
+    <string name="creator_name">Seluist</string>
+    <string name="credit_created_by">Created by Seluist</string>
+    <string name="credit_full_title">Lead Architect &amp; Creator: Seluist</string>
+    <string name="credit_description">Capri was designed and developed by Seluist with futuristic cyberpunk aesthetic, edge-to-edge neural HUD, and local device controls.</string>
+</resources>
