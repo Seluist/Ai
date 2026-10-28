@@ -20,12 +20,12 @@ jobs:
         uses: actions/setup-java@v4
         with:
           distribution: temurin
-          java-version: '17'
+          java-version: '21'
 
       - name: Build APK
         uses: gradle/gradle-build-action@v3
         with:
-          gradle-version: '8.5'
+          gradle-version: '9.3.1'
           arguments: assembleDebug
 
       - name: Upload APK
